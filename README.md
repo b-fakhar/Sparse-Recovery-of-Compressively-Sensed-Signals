@@ -1,28 +1,26 @@
 # Data-Compression
 ### Project Objective 
-The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. In this project, an optimization algorithm based on L0-minimization is develloped with the goal of: (1) improving the speed and quality recovery of the state-of-the-art MAX FS L0-minimization methods, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods. 
+Develop an apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is develloped with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods. 
 
 ### Challenges 
-The newly developed classification algorithm is based on solution methods for the Maximum Feasible Subsystem (MAX FS) problem. The literature MAX FS algorithms are already known to give very high accuracy for binary classification. However, the state-of-the-art MAX FS algorithms have rarely been used and investigated in the literature since they are slow. Therefore, the main requirement is to increase their speed without loss of accuracy.
+The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used techniqe in data compression. However, the well-known sparse recovery algorithms can not handel haighly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recoverd data. 
 
 ### Achievements
-According to the experimental results, the introduced classification algorithm
+According to the experimental results, the introduced algorithm
 
-- Provides better total accuracy compared to KNN, SVM, NB, and LR methods with and without hyperparameter tuning. 
-- Improves the speed of the literature MAX FS classification methods by about 94% while improving the accuracy.
-- Provides promising results for recall-oriented machine learning tasks such as disease diagnosis. 
+- Requires less number of measurement, which leads to higher compression, compared to the well-known CS sparse recovery methods such as Basis Pursuit (BP), Orthogonal Matching Pursuit (OMP), Matching Pursuit (MP), Smoothed-L0 (SL0).
+- Provides  higher  fidelity  recovered  data  eventhough  their  solutions  are  sparser  than  those  of  CS  conventional  sparserecovery methods.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-###### Some details of the experimental setup are summarised in below. For more detail refer to our papers titled "A Faster MAXimum Feasible Subsystem Algorithm for Binary Classification" and " Faster Maximum Feasible Subsystem Solutions for Dense Constraint Matrices".
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###### Some details of the experimental setup are summarised in below. For more detail refer to our papers titled "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech", "MAXimum Feasible Subsystem Recovery of Compressed ECG Signals", and "Recovery of Noisy Compressively Sensed Speech via Modified Maximum Feasible Subsystem Algorithm".
 
 ### Datasets
- Binary classification problems are derived from datasets in the UCI Repository of Machine Learning Databases https://archive.ics.uci.edu/ml/datasets.php. The following tables summarize the characteristics of the datasets used in two set of experiments (Scenario I and Scenario II). In the first scenario, the training set is identical to the entire dataset to compare with previous results of Chinneck's paper (https://pubsonline.informs.org/doi/abs/10.1287/ijoc.13.3.210.12632 ). In Scenario II, real-world medical and biological datasets for disease diagnosis are used. The task is to predict whether the patient has the disease (Class 1) or not (Class 0). The same folds are used throughout the implementation for all the models to ensure uniformity.
 
-![ClassificationData](https://user-images.githubusercontent.com/59096353/114231621-a9c6b880-9948-11eb-9bc4-508e4ba45e78.png)
+Two set of datasets are considered in this project to evaluate the performance of the newly developed algorithm.
 
-### Hyperparameter Tuning
+- A total of 47 ECG signals that contain 22 women and 25 men at different age groups are taken from the MIT-BIH Arrhythmia Database (http://www.physionet.org/physiobank/database/mitdb).  A total of $18$ selected ECG records (104, 107, 111, 112, 115, 116, 118, 119, 201, 207, 208, 209, 212, 213, 214, 228, 231, and 232) are pathologically significant. Digitization of the records was done at a rate of 360 samples/second per channel over a range of 10 mV with 11-bit resolution. For the analysis presented in this project, the first 3600 samples from each ECG signal are considered. Then, ECG signals are divided into segments of length n = 360, each of which contains at least one ECG cycle. Consequently, 47 ECG signals each comprised of 10 segments of length n = 360 are used in the experiments.
 
-Hyperparameter tuning is required to obtain best performance for some classifiers. For the methods that require hyperparameter tuning, two sets of results are reported: (1) default settings without hyperparameter tuning "Def", and (2) with hyperparameter tuning "Tune" ("Def" applies if unspecified). A recent study (Bahel et al. paper https://pubsonline.informs.org/doi/abs/10.1287/ijoc.13.3.210.12632), is considered here to select hyperparameter optimization methods and search ranges.
+- Speech inputs are drawn from the TIMIT database that includes time-aligned orthographic, phonetic and word transcriptions and speech waveforms sampled at 16kH. This well-known database has a total of 6300 sentences, 10 sentences spoken by each of 630 speakers, 438 male and 192 female, from $8$ major dialect regions of the United States. 96 examples, 48 male and 48 female speakers, are used, covering all 8 dialect regions and all 3 types of sentences. The silent portions of a signal contain no useful information, so removing them decreases processing time and increases recovery accuracy. In our experiments, the silent parts of each input speech signal are removed based on the word transcription information in the TIMIT database.
 
 ### Tools/Software
-Python (Scikit-learn, Pandas, Seaborn, Matplotlib, and Plotly), MATLAB, MOSEK, Latex.
+Python, MATLAB, MOSEK, Latex.

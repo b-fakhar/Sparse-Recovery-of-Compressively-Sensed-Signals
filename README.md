@@ -19,7 +19,7 @@ F. F. Firouzeh, J. W. Chinneck and S. Rajan, ``Maximum Feasible Subsystem Algori
 
 ##### Refereed Conference Publications
 
-F. F. Firouzeh, S. Rajan and J. W. Chinneck, ``MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,`` \textit{2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA)}, Bari, Italy, June 1-3, pp. 1-5, 2020. 
+######## F. F. Firouzeh, S. Rajan and J. W. Chinneck, ``MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,`` 2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Bari, Italy, June 1-3, pp. 1-5, 2020. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###### Some details of the experimental setup are summarised in below. For more detail refer to our papers titled "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech", "MAXimum Feasible Subsystem Recovery of Compressed ECG Signals", and "Recovery of Noisy Compressively Sensed Speech via Modified Maximum Feasible Subsystem Algorithm".
 

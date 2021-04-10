@@ -12,11 +12,11 @@ According to the experimental results, the introduced algorithm
 - Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
 
 ### Related Pulications
-##### Refereed Journal Publications
+#### Refereed Journal Publications
 
 F. F. Firouzeh, J. W. Chinneck and S. Rajan, ``Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech,``  IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155
 
-##### Refereed Conference Publications
+#### Refereed Conference Publications
 
 ##### F. F. Firouzeh, S. Rajan and J. W. Chinneck, ``MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,`` 2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Bari, Italy, June 1-3, pp. 1-5, 2020. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

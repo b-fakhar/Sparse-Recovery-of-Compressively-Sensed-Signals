@@ -1,15 +1,15 @@
 # Data-Compression
 ### Project Objective 
-Develop an apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is develloped with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods. 
+Develop an apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is developed with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods.  
 
 ### Challenges 
-The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used techniqe in data compression. However, the well-known sparse recovery algorithms can not handel haighly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recoverd data. 
+The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used technique in data compression. However, the well-known sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recovered data. 
 
 ### Achievements
 According to the experimental results, the introduced algorithm
 
 - Requires less number of measurement, which leads to higher compression, compared to the well-known CS sparse recovery methods such as Basis Pursuit (BP), Orthogonal Matching Pursuit (OMP), Matching Pursuit (MP), Smoothed-L0 (SL0).
-- Provides  higher  fidelity  recovered  data  eventhough  their  solutions  are  sparser  than  those  of  CS  conventional  sparserecovery methods.
+- Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###### Some details of the experimental setup are summarised in below. For more detail refer to our papers titled "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech", "MAXimum Feasible Subsystem Recovery of Compressed ECG Signals", and "Recovery of Noisy Compressively Sensed Speech via Modified Maximum Feasible Subsystem Algorithm".

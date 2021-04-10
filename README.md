@@ -1,6 +1,6 @@
 # Data-Compression
 ### Project Objective 
-Develop an apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is developed with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods.  
+Develop and apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is developed with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods.  
 
 ### Challenges 
 The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used technique in data compression. However, the well-known sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recovered data. 

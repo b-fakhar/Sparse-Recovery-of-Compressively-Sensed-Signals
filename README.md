@@ -1,22 +1,22 @@
 # Data-Compression
-### Project Objective 
+## Project Objective 
 Develop and apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is developed with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods.  
 
-### Challenges 
+## Challenges 
 The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used technique in data compression. However, the well-known sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recovered data. 
 
-### Achievements
+## Achievements
 According to the experimental results, the introduced algorithm
 
 - Requires less number of measurement, which leads to higher compression, compared to the well-known CS sparse recovery methods such as Basis Pursuit (BP), Orthogonal Matching Pursuit (OMP), Matching Pursuit (MP), Smoothed-L0 (SL0).
 - Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
 
-### Related Pulications
-#### Refereed Journal Publications
+## Related Pulications
+### Refereed Journal Publications
 
 ##### F. F. Firouzeh, J. W. Chinneck and S. Rajan, "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech," IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155
 
-#### Refereed Conference Publications
+### Refereed Conference Publications
 
 ##### •	F. F. Firouzeh, S. Rajan, J. W. Chinneck, “MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,” 2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Bari, Italy, June 1-3, pp. 1-5, 2020.
 ##### •	F. F. Firouzeh, J. W. Chinneck, S. Rajan, "A Faster MAXimum Feasible Subsystem Algorithm for Binary Classification," Accepted in 2021 IEEE International Symposium on Medical Measurements and Applications (MeMeA).

@@ -12,15 +12,14 @@ According to the experimental results, the introduced algorithm
 - Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
 
 ## Related Pulications
-### Refereed Journal Publication
+### Refereed Journal Publications
 
 ##### •	F. F. Firouzeh, S. Rajan, J. W. Chinneck, " Fast Maximum Feasible Subsystem Algorithm for Recovery of Compressively Sensed ECG,” Submitted to IEEE Transactions on Instrumentation and Measurement.
-##### •	F. F. Firouzeh, J. W. Chinneck and S. Rajan, "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech," IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155
+##### •	F. F. Firouzeh, J. W. Chinneck and S. Rajan, "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech," IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155.
 
-### Refereed Conference Publications
+### Refereed Conference Publication
 
 ##### •	F. F. Firouzeh, S. Rajan, J. W. Chinneck, “MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,” 2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Bari, Italy, June 1-3, pp. 1-5, 2020.
-##### •	F. F. Firouzeh, J. W. Chinneck, S. Rajan, "A Faster MAXimum Feasible Subsystem Algorithm for Binary Classification," Accepted in 2021 IEEE International Symposium on Medical Measurements and Applications (MeMeA).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###### Some details of the experimental setup are summarised in below. For more detail refer to the papers menttioned above.

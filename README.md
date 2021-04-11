@@ -12,7 +12,7 @@ According to the experimental results, the introduced algorithm
 - Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
 
 ## Related Pulications
-### Refereed Journal Publications
+### Refereed Journal Publication
 
 ##### F. F. Firouzeh, J. W. Chinneck and S. Rajan, "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech," IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155
 
@@ -23,7 +23,7 @@ According to the experimental results, the introduced algorithm
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###### Some details of the experimental setup are summarised in below. For more detail refer to the papers menttioned above.
 
-### Datasets
+## Datasets
 
 Two set of datasets are considered in this project to evaluate the performance of the newly developed algorithm.
 

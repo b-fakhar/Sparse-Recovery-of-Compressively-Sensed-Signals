@@ -1,4 +1,4 @@
-# Sparse Recovery
+# Sparse Recovery of Compressively Sensed Signals
 ## Project Objective 
 Develop and apply an optimization algorithm for sparse recovery to recover more highly compressed speech and ECG signals with greater quality. 
 ## Challenges 

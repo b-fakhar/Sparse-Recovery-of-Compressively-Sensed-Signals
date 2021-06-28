@@ -1,15 +1,14 @@
-# Data-Compression
+# Sparse Recovery
 ## Project Objective 
-Develop and apply an optimization algorithm for data compression. The optimization algorithm based on L0-minimization is developed with the goal of: (1) improving the speed and quality recovery of the state-of-the-art sparse recovery MAX FS L0-minimization algorithms, and (2) improving the compression ratio of the well-known Compressive Sensing (CS) sparse recovery methods.  
-
+Develop and apply an optimization algorithm for sparse recovery to recover more highly compressed speech and ECG signals with greater quality. 
 ## Challenges 
-The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. CS is a widely used technique in data compression. However, the well-known sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ration while providing high quality recovered data. 
+The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. Compressive Sensing (CS) is a widely used compression technique with the two main phases (1) signal acquisition and (2) Sparse signal recovery. In CS like other compression techniques, higher compression is desired. To recover a highly compressed signal with high quality, the critical sparsity of a CS sparse recovery algorithm must be large enough. The well-known CS sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ratio while providing high quality recovered signal. 
 
 ## Achievements
 According to the experimental results, the introduced algorithm
 
 - Requires less number of measurement, which leads to higher compression, compared to the well-known CS sparse recovery methods such as Basis Pursuit (BP), Orthogonal Matching Pursuit (OMP), Matching Pursuit (MP), Smoothed-L0 (SL0).
-- Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS  conventional  sparse recovery methods.
+- Provides  higher  fidelity  recovered  data  even though  their  solutions  are  sparser  than  those  of  CS conventional sparse recovery methods.
 
 ## Related Pulications
 ### Refereed Journal Publications

@@ -35,4 +35,4 @@ Two set of datasets are considered in this project to evaluate the performance o
 - Speech inputs are drawn from the TIMIT database (https://abacus.library.ubc.ca/dataset.xhtml?persistentId=hdl:11272.1/AB2/SWVENO) that includes time-aligned orthographic, phonetic and word transcriptions and speech waveforms sampled at 16kH. This well-known database has a total of 6300 sentences, 10 sentences spoken by each of 630 speakers, 438 male and 192 female, from 8 major dialect regions of the United States. 96 examples, 48 male and 48 female speakers, are used, covering all 8 dialect regions and all 3 types of sentences. The silent portions of a signal contain no useful information, so removing them decreases processing time and increases recovery accuracy. In our experiments, the silent parts of each input speech signal are removed based on the word transcription information in the TIMIT database.
 
 ### Tools/Software
-Python, MATLAB, MOSEK, Latex.
+Python, MATLAB, MOSEK, LaTeX.

@@ -2,7 +2,7 @@
 ## Project Objective 
 Develop and apply an optimization algorithm for reliable recovery of highly compressed ECG and speech signals. 
 ## Challenges 
-The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. Compressive Sensing (CS) is a widely used compression technique with the two main phases (1) signal acquisition and (2) Sparse signal recovery. In CS like other compression techniques, higher compression is desired. To recover a highly compressed signal with high quality, the critical sparsity of a CS sparse recovery algorithm must be large enough. The well-known CS sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ratio while providing high quality recovered signal. 
+The data explosion in the digital age has created a demand in proposing strategies to manage data acquisition, transmission and data storage. Compressive Sensing (CS) is a widely used compression technique with the two main phases (1) signal acquisition and (2) sparse signal recovery. In CS, like other compression techniques, higher compression is desired. To recover a highly compressed signal with high quality, the critical sparsity of a CS sparse recovery algorithm must be large enough. The well-known CS sparse recovery algorithms can not handle highly compressed data. Therefore, there is a need to introduce an optimization algorithm that can handle high compression ratio while providing high quality recovered signal. 
 
 ## Achievements
 According to the experimental results, the introduced algorithm

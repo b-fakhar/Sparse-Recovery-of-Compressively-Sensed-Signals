@@ -17,9 +17,8 @@ According to the experimental results, the introduced algorithm
 ##### •	F. F. Firouzeh, J. W. Chinneck and S. Rajan, "Maximum Feasible Subsystem Algorithms for Recovery of Compressively Sensed Speech," IEEE Access., vol.8, no. 1, pp. 82539-82550, 2020. Accessed on: May. 15, 2020. [Online]. Available doi: 10.1109/ACCESS.2020.2990155.
 
 ### Refereed Conference Publication
-
+##### •	F. F. Firouzeh , S. Rajan , J. W. Chinneck, "Recovery of Noisy Compressively Sensed Speech via Regularized Maximum Feasible Subsystem Algorithm," 2021 IEEE International Instrumentation and Measurements Technology Conference (I2MTC) I2MTC), pp. 1 6, doi: 10.1109/I2MTC50364.2021.9459978.
 ##### •	F. F. Firouzeh, S. Rajan, J. W. Chinneck, “MAXimum Feasible Subsystem Recovery of Compressed ECG Signals,” 2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Bari, Italy, June 1-3, pp. 1-5, 2020.
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###### Some details of the experimental setup are summarised in below. For more detail refer to the papers menttioned above.
 
